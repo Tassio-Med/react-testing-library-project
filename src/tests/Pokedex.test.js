@@ -4,8 +4,6 @@ import userEvent from '@testing-library/user-event';
 import App from '../App';
 import renderWithRouter from './support/renderWithRouter';
 
-// npx stryker run ./stryker/Pokedex.conf.json
-
 describe('Testa o componente "Pokedex.js"', () => {
   it('Testa se página contém um heading h2 com o texto Encountered pokémons', () => {
     renderWithRouter(<App />);
